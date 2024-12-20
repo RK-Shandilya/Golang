@@ -11,4 +11,8 @@ func main() {
 
 	primes := [6]int{2, 3, 5, 7, 11, 13}
 	fmt.Println(primes)
+
+	// multidimensional arrays
+	matrix := [][]int{{1, 2, 3}, {2, 3, 4}, {4, 5, 6}}
+	fmt.Println(matrix)
 }
